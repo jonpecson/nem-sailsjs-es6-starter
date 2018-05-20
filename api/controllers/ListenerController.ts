@@ -20,7 +20,7 @@ export function listen(req: any, res: any, next: Function): any {
   let confirmedTransactionListener = new ConfirmedTransactionListener().given(address);
   confirmedTransactionListener.subscribe(x => {
     console.log(x);
-    res.send(x);
+    res.send(x)
   }, err => {
     console.log(err);
   });
