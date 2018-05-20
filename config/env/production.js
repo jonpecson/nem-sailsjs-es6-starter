@@ -151,6 +151,7 @@ module.exports = {
       // allowOrigins: [
       //   'https://example.com',
       // ]
+      allowOrigins: ['*']
     },
 
   },
